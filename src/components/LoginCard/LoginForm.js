@@ -20,7 +20,7 @@ export default function LoginForm({ handleSubmitForm, username, errorText }) {
           data-testid="username-input"
           type="text"
           className={`form-control ${errorText ? 'is-invalid' : ''}`}
-          placeholder="David..."
+          placeholder="Dasha..."
           value={usernameValue}
           onChange={onChangeInputHandler}
         />
