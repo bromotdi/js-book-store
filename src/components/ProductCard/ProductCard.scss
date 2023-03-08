@@ -1,0 +1,14 @@
+.product {
+  &-img {
+    object-fit: scale-down;
+    height: 250px;
+  }
+
+  @media screen {
+    &:hover {
+      .product-img {
+        object-fit: cover;
+      }
+    }
+  }
+}
