@@ -1,0 +1,11 @@
+.header {
+  &-title {
+    @media screen and (max-width: 390px) {
+      font-size: 1.6rem;
+    }
+
+    & a:hover {
+      text-decoration: none;
+    }
+  }
+}
