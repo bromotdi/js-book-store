@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "airbnb",
+    "react-app",
+    "react-app/jest"
+  ],
+  "plugins": [
+    "react",
+    "prettier"
+  ],
+  "rules": {
+    "jsx-a11y/label-has-associated-control": [ "error", {
+      "required": {
+        "some": [ "nesting", "id"  ]
+      }
+    }],
+    "linebreak-style": 0,
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": 0,
+    "no-console": 0,
+    "react/jsx-props-no-spreading": 0
+  }
+}
